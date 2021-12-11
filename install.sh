@@ -61,7 +61,7 @@ install-dotfile .ackrc
 
 # vscode
 brew install --cask visual-studio-code
-ln -s $(pwd)/settings.vscode.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sf $(pwd)/settings/vscode.json ~/Library/Application\ Support/Code/User/settings.json
 
 
 ### LANGUAGES ###
