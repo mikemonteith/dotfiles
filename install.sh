@@ -7,12 +7,12 @@ function install-dotfile {
     BACKUP_DIR=~/.dotfile-backup/$BACKUP_DATE/
 
     # If it already exists, move the existing file into backup
-    if [ -e ~/$FILENAME ]; then
+    if [ -f ~/$FILENAME ]; then
         mkdir -p $BACKUP_DIR
         mv ~/$FILENAME $BACKUP_DIR/$FILENAME
     fi
 
-    ln -s $(pwd)/dotfiles/$FILENAME ~
+    ln -sf $(pwd)/dotfiles/$FILENAME ~
 }
 
 install-dotfile .profile
