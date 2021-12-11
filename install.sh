@@ -29,7 +29,6 @@ if ! (command -v brew); then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
     source ~/.profile
-    source ~/.bashrc
 fi
 
 # Install the newest version of bash. By default MacOS comes with bash v3
