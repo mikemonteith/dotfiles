@@ -1,5 +1,5 @@
 # bash completion tool
-[ -f $(brew --prefix)/bash_completion ] && . $(brew --prefix)/etc/bash_completion
+[ -f $(brew --prefix)/etc/bash_completion ] && . $(brew --prefix)/etc/bash_completion
 
 # git autocomplete
 if [ -f ~/.git-completion.bash ]; then
