@@ -1,0 +1,5 @@
+--color
+
+--ignore-dir=node_modules/
+--ignore-dir=.vscode/
+--ignore-dir=venv/
