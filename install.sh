@@ -95,6 +95,7 @@ nvm alias default 16
 ###
 brew install helm
 brew install skaffold
+brew install terraform
 
 ### 3rd Party CLIs ###
 brew install doctl
