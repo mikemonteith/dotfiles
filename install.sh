@@ -4,18 +4,15 @@ BACKUP_DATE=$(date +"%Y%m%d%H%M%S")
 
 function install-dotfile {
     FILENAME=$1
-
-    # Make sure there is a backup directory
     BACKUP_DIR=~/.dotfile-backup/$BACKUP_DATE/
-    mkdir -p $BACKUP_DIR
 
-    # Copy the existing file into backup
+    # If it already exists, move the existing file into backup
     if [ -e ~/$FILENAME ]; then
-        cp ~/$FILENAME $BACKUP_DIR/$FILENAME
+        mkdir -p $BACKUP_DIR
+        mv ~/$FILENAME $BACKUP_DIR/$FILENAME
     fi
 
-    # Copy the tracked gitfile into location
-    cp dotfiles/$FILENAME ~/$FILENAME
+    ln -s $(pwd)/dotfiles/$FILENAME ~
 }
 
 install-dotfile .profile
@@ -64,7 +61,7 @@ install-dotfile .ackrc
 
 # vscode
 brew install --cask visual-studio-code
-cp ./settings/vscode.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s $(pwd)/settings.vscode.json ~/Library/Application\ Support/Code/User/settings.json
 
 
 ### LANGUAGES ###
