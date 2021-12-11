@@ -1,0 +1,57 @@
+{
+    "files.insertFinalNewline": true,
+    "[sass]": {
+        "editor.tabSize": 2
+    },
+    "[nunjucks]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        }
+    },
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path": "/Users/mike/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.minikube-path.mac": "/Users/mike/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vscode-kubernetes.minikube-path.mac": "/Users/mike/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[arm-template]": {},
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "azureFunctions.showCoreToolsWarning": false,
+    "files.associations": {
+        "*.html": "nunjucks"
+    },
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Jedi",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "files.trimTrailingWhitespace": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "azureResourceManagerTools.parameterFiles": {
+        "/Users/mike/dev/nhsdigital/nhsuk.site-search/src/nhsuk.site-search.function.ResourceGroup/azuredeploy.json": "azuredeploy.parameters.json"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "redhat.telemetry.enabled": false
+}
