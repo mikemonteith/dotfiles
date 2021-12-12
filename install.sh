@@ -30,7 +30,7 @@ fi
 
 # Install the newest version of bash. By default MacOS comes with bash v3
 brew install bash
-brew install bash-completion
+brew install bash-completion@2
 
 
 # Set up the mac terminal
@@ -47,6 +47,7 @@ plutil -replace "Shell" -string "$(command -v bash)" ~/Library/Preferences/com.a
 brew install git
 install-dotfile .gitignore_global
 install-dotfile .gitconfig
+install-dotfile .git-completion.bash
 
 # Small command line tools
 brew install wget

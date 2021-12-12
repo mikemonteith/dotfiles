@@ -1,5 +1,5 @@
 # bash completion tool
-[ -f $(brew --prefix)/etc/bash_completion ] && . $(brew --prefix)/etc/bash_completion
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
 # git autocomplete
 if [ -f ~/.git-completion.bash ]; then
