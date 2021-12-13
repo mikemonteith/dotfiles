@@ -110,6 +110,9 @@ brew tap mongodb/brew
 brew install mongodb-community@5.0
 brew install sqlite
 
+### Mac utilities ###
+brew install rectangle
+
 
 echo "Install finished."
 echo "You need to fully quit terminal and re-open it"
