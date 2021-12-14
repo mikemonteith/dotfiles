@@ -54,6 +54,7 @@ install-dotfile .git-completion.bash
 brew install wget
 brew install nmap
 brew install dos2unix
+brew install jq
 
 
 ### CODING TOOLS ###
