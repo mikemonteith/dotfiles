@@ -19,6 +19,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export KUBE_EDITOR="vim"
 export EDITOR="vim"
 
+# Postgres connection defaults
+export PGHOST="localhost"
+
 # If homebrew was installed into /opt/ (M1 mac only), then we need to export it's shell env
 if (command -v /opt/homebrew/bin/brew > /dev/null); then 
     eval "$(/opt/homebrew/bin/brew shellenv)"
