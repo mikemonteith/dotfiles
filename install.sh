@@ -55,6 +55,7 @@ brew install wget
 brew install nmap
 brew install dos2unix
 brew install jq
+brew install pv
 
 
 ### CODING TOOLS ###
