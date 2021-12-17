@@ -116,6 +116,9 @@ brew install sqlite
 ### Mac utilities ###
 brew install rectangle
 
+### Browser ###
+brew install firefox
+
 
 echo "Install finished."
 echo "You need to fully quit terminal and re-open it"
