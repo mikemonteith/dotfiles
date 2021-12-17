@@ -119,6 +119,9 @@ brew install rectangle
 ### Browser ###
 brew install firefox
 
+### Work
+brew install slack
+
 
 echo "Install finished."
 echo "You need to fully quit terminal and re-open it"
