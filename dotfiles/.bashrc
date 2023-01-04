@@ -16,3 +16,4 @@ source <(doctl completion bash)
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"
 
 alias k="kubectl"
+. "$HOME/.cargo/env"

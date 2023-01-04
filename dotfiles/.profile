@@ -13,11 +13,12 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 
-export PATH="$HOME/.cargo/bin:$PATH"
 
 # Set vim as the default kubectl editor, instead of vi
 export KUBE_EDITOR="vim"
 export EDITOR="vim"
+
+export SHELL="/bin/bash"
 
 # If homebrew was installed into /opt/ (M1 mac only), then we need to export it's shell env
 if (command -v /opt/homebrew/bin/brew > /dev/null); then 
@@ -31,3 +32,4 @@ eval "$(pyenv init --path)"
 [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh"
 
 source ~/.bashrc
+. "$HOME/.cargo/env"
