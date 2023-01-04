@@ -7,7 +7,7 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 # terraform autocomplete
-complete -C /usr/local/bin/terraform terraform
+complete -C /opt/homebrew/bin/terraform terraform
 
 # doctl autocomplete
 source <(doctl completion bash)
