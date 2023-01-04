@@ -57,6 +57,7 @@ brew install nmap
 brew install dos2unix
 brew install jq
 brew install imagemagick
+brew install pv
 
 
 ### CODING TOOLS ###
@@ -116,6 +117,12 @@ brew install sqlite
 
 ### Mac utilities ###
 brew install rectangle
+
+### Browser ###
+brew install firefox
+
+### Work
+brew install slack
 
 
 echo "Install finished."

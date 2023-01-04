@@ -20,6 +20,9 @@ export EDITOR="vim"
 
 export SHELL="/bin/bash"
 
+# Postgres connection defaults
+export PGHOST="localhost"
+
 # If homebrew was installed into /opt/ (M1 mac only), then we need to export it's shell env
 if (command -v /opt/homebrew/bin/brew > /dev/null); then 
     eval "$(/opt/homebrew/bin/brew shellenv)"
