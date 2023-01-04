@@ -46,6 +46,7 @@ plutil -replace "Shell" -string "$(command -v bash)" ~/Library/Preferences/com.a
 # Git
 brew install git
 brew install git-gui # This is for gitk
+brew install git-lfs
 install-dotfile .gitignore_global
 install-dotfile .gitconfig
 install-dotfile .git-completion.bash
