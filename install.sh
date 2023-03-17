@@ -69,6 +69,8 @@ install-dotfile .ackrc
 brew install --cask visual-studio-code
 ln -sf $(pwd)/settings/vscode.json ~/Library/Application\ Support/Code/User/settings.json
 
+# postman
+brew install postman
 
 ### LANGUAGES ###
 # C
