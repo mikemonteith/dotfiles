@@ -109,6 +109,7 @@ brew install terraform
 brew install doctl
 brew install s3cmd
 brew install awscli
+brew install aws/tap/aws-sam-cli
 
 ### Databases ###
 brew install postgresql
