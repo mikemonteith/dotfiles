@@ -82,6 +82,12 @@ brew install rust
 # Go
 brew install go
 
+# Ruby
+brew install ruby@2.7
+
+# Java
+brew install java
+
 # python
 brew install pyenv
 # Init pyenv so we can run pyenv commands in this script
